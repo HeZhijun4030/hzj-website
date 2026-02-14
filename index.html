@@ -19,14 +19,21 @@
 		padding-bottom: 60px; 
 	}
 	
-	.logoimg {
-            max-width: 100%;    
-            height: auto;           
-            width: auto;            
-            max-height: 60vh;       
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-        }
+	.logo-section {
+		        text-align: center;
+			padding: 30px 0;
+			border-top: 3px solid #40b8cf;     /* 上分割线 */
+			border-bottom: 3px solid #40b8cf;  /* 下分割线 */
+		        margin: 20px 0;
+				    background: rgba(64, 184, 207, 0.1); /* 淡淡的背景色 */
+				    }
+
+	        .logoimg {
+			max-width: 100%;
+			height: auto;
+		        max-height: 60vh;
+		        border-radius: 10px;
+		 }
 
 	.copyright {
             position: absolute;         
@@ -44,9 +51,12 @@
 	</style>
 </head>
 <body>
+	<div class="logo-section">
+		
 	
     	<img class="logoimg" src="images/cms.png"style="width: 70%; height: auto;" />
-    	<h1>Code Man Studio</h1>
+	</div>
+	<h1>Code Man Studio</h1>
 
     	<h2>$ whoami </h2>
 	
