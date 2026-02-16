@@ -258,8 +258,23 @@
     <h3>HeZhijun4030</h3>
     <img src="images/sprins.png" alt="sprins" class="inline-icon" style="width:48px;" onerror="this.style.display='none'">
     <pre style="margin: 0.8rem 0 1.5rem;">
-热爱编程的中学生
-C++ & Python  lover · 后端构筑于黑暗
+中学生
+C++ Python linux 阴暗后端入 
+可称 老何 何志军 志军
+
+11.5.21生
+
+没有亮眼的特长，中文表达能力为0，兴趣为写代码和聊天，偶尔做做pv
+
+喜欢的游戏：蔚蓝档案，THE FINALS，Minecraft，GMOD，鬼泣5，联合计划，军团要塞2，秘密实验室（SL），RXSEND
+
+小钩晴单推，冥亡症重度依赖，四部临忠实信徒
+喜欢乐队 NECK DEEP，学习中上，生活正常
+
+优点：好说话，尽量让别人获得正面情绪，我喜欢成就感，喜欢尝试新东西
+缺点：医者不能自治，懒，喜欢炫耀,刷存在感
+
+
     </pre>
 
     <div class="row">
@@ -340,11 +355,12 @@ C++ & Python  lover · 后端构筑于黑暗
         <p>“In sin we both partake, yet it's mercy you doth forsake. What's real this time? Simply feel and find the meaning.”</p>
         <small>我们同在罪恶之中，你却选择宽恕。此时此刻，何为真实？只需感受并探寻其意义。</small>
     </div>
-    <img src="yahweh.jpeg" alt="Yahweh" class="yahweh-img" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/yahweh.jpeg" alt="Yahweh" class="yahweh-img" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/yahweh.jpeg" alt="Yahweh" class="yahweh-img" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
 
     <hr>
     <p style="text-align:center; color:#7c93a4;">> Open your eyes we are just alone.</p>
 
-    <div class="copyright"> created by HeZhijun4030 · 融合 README 与个人站点 · 翻涌吧 </div>
+    <div class="copyright"> created by HeZhijun4030</div>
 </body>
 </html>
