@@ -176,13 +176,29 @@
             border: 2px solid #2e4b5c;
         }
         .fimg {
-            max-width: 50%;
+            max-width: 35%;
             height: auto;
             border-radius: 40px;
             margin: 2rem auto;
             display: block;
             border: 2px solid #2e4b5c;
         }
+        /* 新增图片行容器 */
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+/* 在行内覆盖 .fimg 的样式 */
+.image-row .fimg {
+    max-width: 200px;  /* 更小的固定宽度 */
+    margin: 0;         /* 移除自动边距 */
+    display: inline-block; /* 改为行内块 */
+}
+        
 
         .copyright {
             position: absolute;
@@ -366,20 +382,22 @@ C++ Python linux 阴暗后端入
     </div>
     <h2>Images</h2>
     <img src="images/yahweh.jpeg" alt="Yahweh" class="yahweh-img" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <div class = "image-row">
     <img src="images/3.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/7.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/11.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/10.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/14.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/1.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/2.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/12.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/4.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/5.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/6.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/8.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/9.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/11.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/12.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/7.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/2.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/13.jpg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    </div>
     <hr>
     <p style="text-align:center; color:#7c93a4;">> Open your eyes we are just alone.</p>
 
