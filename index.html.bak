@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTF is HeZhijun</title>
     <style>
@@ -174,6 +175,14 @@
             display: block;
             border: 2px solid #2e4b5c;
         }
+        .fimg {
+            max-width: 50%;
+            height: auto;
+            border-radius: 40px;
+            margin: 2rem auto;
+            display: block;
+            border: 2px solid #2e4b5c;
+        }
 
         .copyright {
             position: absolute;
@@ -266,7 +275,7 @@ C++ Python linux 阴暗后端入
 
 没有亮眼的特长，中文表达能力为0，兴趣为写代码和聊天，偶尔做做pv
 
-喜欢的游戏：蔚蓝档案，THE FINALS，Minecraft，GMOD，鬼泣5，联合计划，军团要塞2，秘密实验室（SL），RXSEND
+喜欢的游戏：蔚蓝档案，Minecraft，GMOD，鬼泣5，联合计划，军团要塞2，秘密实验室（SL），RXSEND
 
 小钩晴单推，冥亡症重度依赖，四部临忠实信徒
 喜欢乐队 NECK DEEP，学习中上，生活正常
@@ -336,8 +345,8 @@ C++ Python linux 阴暗后端入
             <span class="badge"><img src="https://img.shields.io/badge/QQ-419783120-blue?style=flat&logo=qq&labelColor=black" alt="QQ"></span>
         </div>
         <div style="display: flex; gap: 10px;">
-            <img src="god.jpg" width="100" height="50" alt="god" style="object-fit: cover; border-radius:8px;" onerror="this.src='https://via.placeholder.com/100x50?text=SUPREME'">
-            <img src="funny.png" width="100" height="50" alt="funny" style="object-fit: cover; border-radius:8px;" onerror="this.src='https://via.placeholder.com/100x50?text=:)'">
+            <img src="images/god.jpg" width="100" height="50" alt="god" style="object-fit: cover; border-radius:8px;" onerror="this.src='https://via.placeholder.com/100x50?text=SUPREME'">
+            <img src="images/funny.png" width="100" height="50" alt="funny" style="object-fit: cover; border-radius:8px;" onerror="this.src='https://via.placeholder.com/100x50?text=:)'">
         </div>
     </div>
 
@@ -355,9 +364,18 @@ C++ Python linux 阴暗后端入
         <p>“In sin we both partake, yet it's mercy you doth forsake. What's real this time? Simply feel and find the meaning.”</p>
         <small>我们同在罪恶之中，你却选择宽恕。此时此刻，何为真实？只需感受并探寻其意义。</small>
     </div>
+    <h2>Images</h2>
     <img src="images/yahweh.jpeg" alt="Yahweh" class="yahweh-img" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/yahweh.jpeg" alt="Yahweh" class="yahweh-img" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-
+    <img src="images/3.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/7.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/10.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/14.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/1.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/2.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/4.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/5.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/6.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    
     <hr>
     <p style="text-align:center; color:#7c93a4;">> Open your eyes we are just alone.</p>
 
