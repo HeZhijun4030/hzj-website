@@ -184,19 +184,26 @@
             border: 2px solid #2e4b5c;
         }
         /* 新增图片行容器 */
+/* 新增图片行容器 - 横向排列 */
 .image-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;        /* 允许换行 */
     gap: 1rem;
     justify-content: center;
     margin: 2rem 0;
+    align-items: flex-start; /* 顶部对齐 */
 }
 
-/* 在行内覆盖 .fimg 的样式 */
+/* 在行内覆盖 .fimg 的样式 - 保持原始大小 */
 .image-row .fimg {
-    max-width: 200px;  /* 更小的固定宽度 */
-    margin: 0;         /* 移除自动边距 */
-    display: inline-block; /* 改为行内块 */
+    max-width: none;        /* 移除最大宽度限制 */
+    width: auto;            /* 自动宽度 */
+    height: auto;           /* 自动高度 */
+    max-height: 300px;      /* 可选：限制最大高度，避免太高 */
+    margin: 0;              
+    display: inline-block;
+    object-fit: contain;    /* 保持原始比例 */
+    border-radius: 12px;    /* 稍小的圆角 */
 }
         
 

@@ -194,7 +194,7 @@
 
 /* 在行内覆盖 .fimg 的样式 */
 .image-row .fimg {
-    max-width: 200px;  /* 更小的固定宽度 */
+    max-width: auto;  /* 更小的固定宽度 */
     margin: 0;         /* 移除自动边距 */
     display: inline-block; /* 改为行内块 */
 }
@@ -388,14 +388,14 @@ C++ Python linux 阴暗后端入
     <img src="images/10.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/14.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/1.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/2.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/12.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/4.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/5.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/6.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/8.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/9.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/7.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
-    <img src="images/12.jpeg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
+    <img src="images/2.png" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     <img src="images/13.jpg" alt="idk" class="fimg" onerror="this.src='https://via.placeholder.com/800x400?text=Yahweh'">
     </div>
     <hr>
